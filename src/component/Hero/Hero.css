@@ -1,0 +1,53 @@
+.hero {
+    background: url(../../assets/resort2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content_hero {
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    color: #fff;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+.content_hero h2 {
+    font-size: 80px;
+    font-weight: 400;
+}
+.content_hero p {
+    font-size: 40px;
+    font-weight: 400;
+}
+.content_tag {
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.content_tag p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+    .content_hero h2 {
+        font-size: 40px;
+        font-weight: 400;
+    }
+    .content_hero p {
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .content_tag p {
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+}

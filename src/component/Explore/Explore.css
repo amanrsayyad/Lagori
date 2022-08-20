@@ -1,0 +1,84 @@
+.explore {
+  background: url(../../assets/resort3.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.explore_container {
+  padding: 4.5rem calc((100vw - 1100px) / 2);
+  display: flex;
+  position: relative;
+}
+.explore_bg {
+  background: url(../../assets/resort4.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 80vh;
+}
+.explore_card {
+  background: rgb(173, 255, 182);
+  height: 300px;
+  width: 400px;
+  position: absolute;
+  top: 25%;
+  right: 20%;
+  padding: 20px;
+  color: #007078;
+  font-family: 'Poppins', sans-serif;
+}
+.explore_card h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+.explore_card li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #000;
+}
+.explore_card li i{
+  padding: 7px;
+  background-color: rgb(19, 167, 19);
+  color: #fff;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+  .explore {
+    width: 100%;
+    height: 45vh;
+  }
+  .explore_card {
+    background: #fff;
+    height: 300px;
+    width: 350px;
+    position: absolute;
+    top: 25%;
+    right: 13%;
+  }
+  .explore_bg {
+    display: none;
+  }
+}
+@media only screen and (max-width: 786px) {
+   .explore {
+    width: 100%;
+    height: 60vh;
+   }
+  .explore_card {
+    background: #fff;
+    height: 330px;
+    width: 300px;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    padding: 20px;
+    margin: auto;
+  }
+}

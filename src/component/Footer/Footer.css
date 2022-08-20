@@ -1,0 +1,112 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  background-image: linear-gradient(to right, #051937, #14234c, #282c61, #3f3475, #593b88);
+  color: #fff;
+  margin: auto;
+  font-family: 'Metamorphous', cursive;
+}
+.address {
+  font-family: 'Metamorphous', cursive;
+}
+.footer_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+.footerLinks h2 {
+  margin-bottom: 10px;
+}
+.footerLinks img {
+  width: 70%;
+  height: 60%;
+  margin-left: 65px;
+}
+.footerLinks p {
+  font-size: 20px;
+  line-height: 2.2rem;
+  font-family: 'Poppins', sans-serif;
+}
+.footerLinks li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.footerLinks li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+.footerLinks li a:hover {
+  color: #ffd700;
+}
+.two_links {
+  display: flex;
+  justify-content: space-around;
+  background-image: linear-gradient(to right, #051937, #14234c, #282c61, #3f3475, #593b88);
+  padding-bottom: 25px;
+  letter-spacing: 1.5px;
+  font-family: 'Poppins', sans-serif;
+}
+.copy_h3 {
+  font-size: 17px;
+  color: #fff;
+}
+.company_name {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+}
+.company_name:hover {
+  color: red;
+}
+.address {
+  font-size: 35px;
+}
+@media screen and (max-width: 991px) {
+  .footer {
+    height: 95vh;
+  }
+  .footer_container {
+    grid-template-columns: 1fr;
+  }
+  .footerLinks p {
+    /* margin-left: 25px; */
+    text-align: center;
+  }
+  .footerLinks li {
+    /* margin-left: 25px; */
+    text-align: center;
+  }
+  .footerLinks h2 {
+    /* margin-left: 25px; */
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    height: 100vh;
+  }
+  .footer_container {
+    grid-template-columns: 1fr;
+  }
+  .footerLinks p {
+    /* margin-left: 25px; */
+    text-align: center;
+  }
+  .footerLinks li {
+    /* margin-left: 25px; */
+    text-align: center;
+  }
+  .footerLinks h2 {
+    /* margin-left: 25px; */
+    text-align: center;
+  }
+  .two_links {
+    flex-direction: column;
+    text-align: center;
+  }
+}
